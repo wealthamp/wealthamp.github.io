@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wealthamp | Systematic Trading"
+title                    : "Wealthamp | Systematic Trading Test"
 title_separator          : "-"
 subtitle                 : "Learn the art of systematic trading"
 name                     : "Wealthamp"
