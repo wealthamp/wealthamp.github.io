@@ -3,11 +3,11 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: https://wallpapers.com/images/featured/amh1tqh06166z417.jpg
   actions:
-    - label: "Download"
+    - label: "Sign Up"
       url: "https://github.com/mmistakes/minimal-mistakes/"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Pork chop. Oink Oink."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
@@ -16,7 +16,6 @@ feature_row:
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
@@ -51,6 +50,11 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+<form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="email" placeholder="Email" name="_replyto" required>
+    <input type="submit" value="Send">
+</form>
 
 {% include feature_row id="intro" type="center" %}
 
