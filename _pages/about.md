@@ -5,3 +5,8 @@ permalink: /about/
 ---
 
 Something exciting coming your way. ;)
+<form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="email" placeholder="Email" name="_replyto" required>
+    <input type="submit" value="Send">
+</form>

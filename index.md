@@ -50,11 +50,6 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<form action="https://formspree.io/your@email.com"
-      method="POST">
-    <input type="email" placeholder="Email" name="_replyto" required>
-    <input type="submit" value="Send">
-</form>
 
 {% include feature_row id="intro" type="center" %}
 
