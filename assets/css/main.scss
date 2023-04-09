@@ -4,6 +4,13 @@ search: false
 ---
 
 @charset "utf-8";
+$background-color: #040404;
+$primary-color: #e1c786;
+
+#email__input {
+    display: inline-block;
+    border-bottom: 2px solid white;
+};
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
