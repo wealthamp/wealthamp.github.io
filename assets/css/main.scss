@@ -10,6 +10,7 @@ $primary-color: #e1c786;
 #email__input {
     display: inline-block;
     border-bottom: 2px solid white;
+    margin-bottom: 10px;
 };
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
